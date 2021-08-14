@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.box {
+    box-shadow: 0px 1px 10px #000000;
+    background-color: #ffffff;
+    width: 430px;
+    height: 510px;
+    border-radius: 10px;
+}
+.header {
+    height: 85px;
+    border-bottom: solid 1px #dadde1;
+    padding: 17px;
+    display: flex;
+}
+.text {
+    flex: 2;
+    
+}
+.title {
+    margin-bottom: 5px;
+}
+.title h1{
+    font-size: 25px;
+    color: #000000;
+    margin: 0;
+}
+.sub-title h4{
+    font-size: 15px;
+    color: #727880;
+    margin: 0;
+    font-weight: normal;
+}
+.box-x {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.x {
+    width: 18px;
+    height: 18px;
+}
+.x img {
+    width: 18px;
+    height: 18px;
+}
+.box-form {
+    padding: 17px;
+}
+form input {
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+    border: solid 1px #ccd0d5;
+    border-radius: 5px;
+    background-color: #f5f6f7;
+    color: #000000;
+}
+form input:focus {
+    outline: none !important;
+    border-color: 	#1E90FF;
+}
+.box-input {
+    margin-bottom: 10px;
+}
+.nome-sobrenome {
+    display: flex;
+    justify-content: space-between;
+}
+.nome-sobrenome input {
+    
+    width: 193px;
+}
+.email input {
+    width: 100%;
+}
+.new-password input {
+    width: 100%;
+}
+.box-label {
+    display: flex;
+}
+.label {
+    margin: 0;
+    font-size: 12px;
+    margin-top: 2px;
+    color: #606770;
+}
+.figure a {
+    margin-left: 4px;
+}
+.figure img {
+    width: 12px;
+    height: 12px;
+}
+.data-nascimento {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+.data-nascimento input {
+    background-color: #FFFFFF;
+    width: 125px;
+    height: 36px;
+}
+.genero {
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.box-genero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 125px;
+    height: 36px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: solid 1px #ccd0d5;
+    border-radius: 5px;
+}
+.box-genero label{
+    color: #727880;
+    font-size: 14px;
+}
+.termos {
+    margin-top: 1px;
+    margin-bottom: 11px;
+}
+.termos p {
+    margin: 0;
+    color: #777;
+    font-size: 11px;
+
+}
+.termos a {
+    margin: 0;
+    text-decoration: none;
+    color: #385898;
+}
+.termos a:hover {
+    text-decoration: underline;
+}
+.button {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-button {
+    margin: 0px;
+    padding: 0px;
+}
+.box-button button {
+    border: none;
+    border-radius: 6px;
+    background-color: #00a400;
+    width: 194px;
+    height: 36px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.box-button button:hover {
+    background-color: #578843;
+    cursor: pointer;
+}
+@media (max-width:600px) {
+    .box {
+        width: 330px;
+    }
+    .nome-sobrenome input {
+        width: 143px;
+    }
+    .data-nascimento input {
+        width: 95px;
+    }
+    #box-01{
+        width: 88px;
+    }
+    #box-02 {
+        width:109px;
+    }
+    .box-genero label {
+        font-size: 12px;
+    }
+    .box-genero input {
+        height: 36px;
+        margin: 0;
+        margin-left: 3px;
+    }
+    .termos p {
+        text-align: justify;
+    }
+}
