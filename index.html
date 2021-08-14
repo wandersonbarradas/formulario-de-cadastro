@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="Ptbr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="header">
+                <div class="text">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="sub-title">
+                        <h4>É rápido e fácil.</h4>
+                    </div>
+                </div>
+                <div class="box-x">
+                    <div class="x">
+                        <a href=""><img src="assets/image/botao-x.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="body">
+                <div class="box-form">
+                    <form action="" method="POST">
+                        <div class="box-input">
+                            <div class="nome-sobrenome">
+                                <div class="nome">
+                                    <input type="text" name="nome" placeholder="Nome" required minlength="4">
+                                </div>
+                                <div class="sobrenome">
+                                    <input type="text" name="sobrenome" placeholder="Sobrenome" required minlength="4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-input">
+                            <div class="email">
+                                <input type="email" name="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="box-input">
+                            <div class="new-password">
+                                <input type="password" name="password" placeholder="Nova senha" required minlength="6">
+                            </div>
+                        </div>
+                        <div class="box-label">
+                            <div class="label">
+                                <label>Data de nascimento</label>
+                            </div>
+                            <div class="figure">
+                                <a href=""><img src="assets/image/questao.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="box-input">
+                            <div class="data-nascimento">
+                                <div class="dia">
+                                    <input type="number" name="dia" placeholder="Dia" min="1" max="31" required
+                                        maxlength="2">
+                                </div>
+                                <div class="mes">
+                                    <input type="number" name="mes" placeholder="Mes" min="1" max="12" required
+                                        maxlength="2">
+                                </div>
+                                <div class="ano">
+                                    <input type="number" name="ano" placeholder="Ano" min="1905" max="2021" required
+                                        maxlength="4" minlength="4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-label">
+                            <div class="label">
+                                <label>Gênero</label>
+                            </div>
+                            <div class="figure">
+                                <a href=""><img src="assets/image/questao.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="box-input">
+                            <div class="genero">
+                                <div class="box-genero" id="box-01">
+                                    <label for="feminino">Feminino</label>
+                                    <input type="radio" name="genero" id="feminino" value="feminino" required>
+                                </div>
+                                <div class="box-genero" id="box-01">
+                                    <label for="masculino">Masculino</label>
+                                    <input type="radio" name="genero" id="masculino" value="masculino" required>
+                                </div>
+                                <div class="box-genero" id="box-02">
+                                    <label for="personalizado">Personalizado</label>
+                                    <input type="radio" name="genero" id="personalizado" value="personalizado" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="termos">
+                            <p>Ao clicar em Cadastre-se, você concorda com nossos <a href="">Termos</a>, <a
+                                    href="">Política de
+                                    Dados</a> e <a href="">Política de Cookies</a>. Você poderá receber notificações por
+                                SMS e cancelar isso quando quiser.</p>
+                        </div>
+                        <div class="button">
+                            <div class="box-button">
+                                <a href="index.html"><button>Cadastre-se</button></a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
